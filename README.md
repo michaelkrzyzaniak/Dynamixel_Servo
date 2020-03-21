@@ -4,8 +4,9 @@ Arduino library for Dynamixel Servos
 HTML Documentation is here:
 http://michaelkrzyzaniak.github.io/Dynamixel_Servo/
 
-A simple program to move a servo back and forth would look lie this:
+A simple program to move a servo back and forth would look like this:
 
+```C
 #include <Dynamixel_Servo.h>
 
 #define HALF_DUPLEX_DIRECTION_PIN 4
@@ -34,3 +35,4 @@ void loop(void)
   //if(error) handle_error();
   delay(2000);
 }
+```
